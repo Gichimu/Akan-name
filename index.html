@@ -5,17 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
     <title>Akan Name</title>
 </head>
 <body>
-    <div id="container">
-        <div id="row">
-            <h4>The Akan Name Project</h4>
-            <p>The app takes a person's birthdate and returns their
-                Ghanaian Akan name based on their determined day of birth.
-            </p>
+    <div class="container">
+        <div class="row">
+            <div class="jumbotron">
+                
+                    <h4>The Akan Name Project</h4>
+                    <hr class="my-4">
+                    <p>The app takes a person's birthdate and returns their
+                        Ghanaian Akan name based on their day of birth.
+                    </p>
+                    <hr class="my-4">
+                    <form onsubmit="auth">
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Enter your birthdate and select your gender below:</label>
+                            <input type="date" class="form-control" id="birthdate" aria-describedby="emailHelp" required>
+                        </div>
+                        <div class="form-group"> 
+                            <select class="custom-select mr-sm-2" id="gender" required>
+                                <option selected>Choose...</option>
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                            </select>
+                        </div>
+                            
+                            
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                    
+            </div>
         </div>
     </div>
+    <scripts 
 </body>
 </html>
