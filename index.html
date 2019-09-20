@@ -10,16 +10,17 @@
 </head>
 <body>
     <div class="container">
+        <div class="row" id="spacer"></div>
         <div class="row">
             <div class="jumbotron">
                 
                     <h4>The Akan Name Project</h4>
-                    <hr class="my-4">
+                    <div class="card-body">
                     <p>The app takes a person's birthdate and returns their
                         Ghanaian Akan name based on their day of birth.
                     </p>
                     <hr class="my-4">
-                    <form onsubmit="auth">
+                    <form onsubmit="auth()">
                         <div class="form-group">
                             <label for="exampleInputEmail1">Enter your birthdate and select your gender below:</label>
                             <input type="date" class="form-control" id="birthdate" aria-describedby="emailHelp" required>
@@ -35,10 +36,10 @@
                             
                         <button type="submit" class="btn btn-success">Submit</button>
                     </form>
-                    
+                    </div>
             </div>
         </div>
     </div>
-    <scripts 
+    <script src="js/scripts.js"></script> 
 </body>
 </html>
