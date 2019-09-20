@@ -1,8 +1,25 @@
 body {
     text-align: center;
+    background-image: url("https://jooinn.com/images/background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #birthdate {
     width: 50%;
     margin-left: 25%;
+}
+
+#gender {
+    width: 50%;
+    margin-left: 6px;
+}
+
+#spacer {
+    height: 280px;
+}
+
+.row {
+    position: relative;
+    left: 130px;
 }
