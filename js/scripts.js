@@ -6,10 +6,6 @@ var auth = function (){
 
     var arr = birthday.split("-");
 
-    /*for(i = 0; i < arr.length; i++){
-        parseInt(arr[i]);
-    }*/
-
     var cc = arr[0].split("");
 
     var CC = parseInt(cc[0] + cc[1]);
@@ -19,6 +15,10 @@ var auth = function (){
     var MM = parseInt(arr[1]);
 
     var DD = parseInt(arr[2]);
+
+    for(i = 0; i < arr.length; i++){
+        parseInt(arr[i]);
+    }
 
     if(arr[0] > 2010){
         alert("Invalid year of birth, please try again");
