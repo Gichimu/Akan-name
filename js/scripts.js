@@ -32,8 +32,6 @@ var auth = function (){
     }else{
         var dotw = (((CC/4) -2*CC-1) + ((5*YY/4)) + ((26*(MM+1)/10)) + DD ) % 7;
 
-        alert(Math.floor(dotw));
-
         switch (Math.floor(dotw)){
 
         case 0 || -0:
