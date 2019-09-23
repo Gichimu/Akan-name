@@ -38,69 +38,69 @@ var auth = function (){
         case 0 || -0:
             if(gender === "male"){
                 akan_name = "kwasi";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }else{
                 akan_name = "akosua";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }
             break;
         case 1 || -1:
         
             if(gender === "male"){
                 akan_name = "kwadwo";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }else{
                 akan_name = "adwoa";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }
             break;
         case 2 || -2:
         
             if(gender === "male"){
                 akan_name = "kwabena";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }else{
                 akan_name = "abenaa";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }
             break;
         case 3 || -3:
     
             if(gender === "male"){
                 akan_name = "kwaku";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }else{
                 akan_name = "akua";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }
             break;
         case 4 || -4:
         
             if(gender === "male"){
                 akan_name = "Yaw";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }else{
                 akan_name = "Yaa";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }
             break;
         case 5 || -5:
             if(gender === "male"){
                 akan_name = "kofi";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }else{
                 akan_name = "afua";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }
             break;
         case 6 || -6:
         
             if(gender === "male"){
                 akan_name = "kwame";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }else{
                 akan_name = "ama";
-                alert(akan_name);
+                alert("Your Akan name is " + akan_name);
             }
         
         }
